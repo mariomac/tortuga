@@ -29,14 +29,26 @@ Functions and constants reference
 * `void girar(float grados)`
   + Rotates the turtle.
   + Parameters:
-    + float grados: the number of degrees to rotate the turtle. If `grados` is positive, turtle will rotate
+      - `float grados`: the number of degrees to rotate the turtle. If `grados` is positive, turtle will rotate
       to its left. Otherwise, it will rotate to its right.
-
-  
-void avanzar(float distancia);
-void posicion_inicial(float posX, float posY);
-void angulo_inicial(float grados);
-void punta_lapiz(int color, int grosor);
+* `void avanzar(float distancia)`
+  + Makes turtle to go ahead.
+  + Parameters
+      - `float distancia`: number of steps to advance.
+* `void posicion_inicial(float posX, float posY)`
+  + Sets the position of the turtle in the screen.
+  + Parameters
+      - `float posX`: the X position of the turtle.
+      - `float posY`: the Y position of the turtle.
+* `void angulo_inicial(float grados)`
+  + Sets the angle of the turtle.
+  + Parameters
+      - `float grados`: the new angle of the turtle, in degrees.
+* `void punta_lapiz(int color, int grosor)`
+  + Sets the properties of the drawing.
+  + Parameters
+      - `int color`: the color of the draw. It can be one of the next constants:
+        `BLACK`, `WHITE`, `RED`, `BLUE`, `GREEN`, `WHITE`
 void estado_lapiz(int estado);
 void velocidad_tortuga(int velocidad);
 void puntero_lapiz(int visible);
