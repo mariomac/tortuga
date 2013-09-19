@@ -61,6 +61,9 @@ Functions and constants reference
       - `int velocidad`: the speed of the turtle. It can be one of the next constants, ordered from slowest to fastest:
          `VELOCIDAD_LENTA`, `VELOCIDAD_MEDIA`, `VELOCIDAD_RAPIDA`, `VELOCIDAD_MAXIMA`
 
-
-void puntero_lapiz(int visible);
+* `void puntero_lapiz(int visible)`
+  + Sets the visibility of the turtle.
+  + Parameters
+      - `int visible`: it can be one of the next constants: `ON` turns the turtle visible, `OFF` turns the turtle
+      invisible
 
