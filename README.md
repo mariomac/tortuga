@@ -15,6 +15,8 @@ Building instructions for Ubuntu
 `gcc example.c -o example -lSDL -lm`
 3. Run the binary: `./example`
 
+And, voilà! Your turtle is drawing your screen:
+
+![](sample.gif)
 
 
-[Markdown](http://en.wikipedia.com/wiki/Markdown)
