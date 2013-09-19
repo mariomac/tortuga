@@ -45,11 +45,22 @@ Functions and constants reference
   + Parameters
       - `float grados`: the new angle of the turtle, in degrees.
 * `void punta_lapiz(int color, int grosor)`
-  + Sets the properties of the drawing.
+  + Sets the properties of the pencil.
   + Parameters
-      - `int color`: the color of the draw. It can be one of the next constants:
+      - `int color`: the color of the pencil. It can be one of the next constants:
         `BLACK`, `WHITE`, `RED`, `BLUE`, `GREEN`, `WHITE`
-void estado_lapiz(int estado);
-void velocidad_tortuga(int velocidad);
+      - `int grosor`: the widht of the pencil.
+* `void estado_lapiz(int estado)`
+  + Sets the status of the pencil.
+  + Parameters
+      - `int estado`: the status of the pencil. It can be one of the next constants: `PEN_DOWN` (the turtle draws
+        while it walks), `PEN_UP` (the turtle does not draw when it walks).
+* `void velocidad_tortuga(int velocidad)`
+  + Sets the speed of the turtle.
+  + Parameters
+      - `int velocidad`: the speed of the turtle. It can be one of the next constants, ordered from slowest to fastest:
+         `VELOCIDAD_LENTA`, `VELOCIDAD_MEDIA`, `VELOCIDAD_RAPIDA`, `VELOCIDAD_MAXIMA`
+
+
 void puntero_lapiz(int visible);
 
