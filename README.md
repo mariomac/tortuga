@@ -64,3 +64,5 @@ Functions and constants reference
   + Parameters
       - `int visible`: it can be one of the next constants: `ON` turns the turtle visible, `OFF` turns the turtle
       invisible
+
+Si te gustan mis aportaciones a github, quizás te gustará mi libro [Del bit a la Nube](http://www.xaas.guru/del-bit-a-la-nube/)
